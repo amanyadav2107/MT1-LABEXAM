@@ -6,6 +6,7 @@ const PORT = 4000;
 // B1: Middleware parses incoming JSON request bodies.
 app.use(express.json());
 
+
 // B3: In-memory cart. No database is used.
 let cart = [
   { id: 1, productName: "Wireless Mouse", price: 799, quantity: 2, category: "Electronics" },
